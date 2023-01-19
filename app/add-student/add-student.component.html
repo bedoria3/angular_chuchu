@@ -1,0 +1,39 @@
+
+<div class="container">
+<form [formGroup]="studentForm" (ngSubmit)="addStudent()">
+  <label for="first-name">First Name</label>
+  <input id= "first_name" type="text" formControlName="firstName">
+  <br>
+  <label for="last_name">Last Name</label>
+  <input id= "last_name" type="text" formControlName="lastName">
+  <br>
+  <label for="age">Age</label>
+  <input id= "age" type="number" formControlName="age">
+  <br>
+  <label for="gender">Gender</label>
+  <input id= "gender" type="text" formControlName="gender">
+  <br>
+  <label for="elementary_school">Nationality</label>
+  <input id= "nationality" type="text" formControlName="nationality">
+  <br>
+  <label for="home_address">Home Address</label>
+  <input id= "home_address" type="text" formControlName="home_address">
+  <br>
+  <label for="status">Status</label>
+  <input id= "status" type="text" formControlName="status">
+  <br>
+  <label for="elementary_school">Elementary School</label>
+  <input id= "elementary_school" type="text" formControlName="elementary_school">
+  <br>
+  <label for="high_school">High School</label>
+  <input id= "high_school" type="text" formControlName="high_school">
+  <br>
+  <label for="college">College</label>
+  <input id= "college" type="text" formControlName="college">
+  <br>
+  <label for="degree">Degree</label>
+  <input id= "degree" type="text" formControlName="degree">
+  <br>
+<button type="submit">Add Student</button>
+</form>
+</div>

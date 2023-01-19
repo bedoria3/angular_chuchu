@@ -1,0 +1,22 @@
+.design{
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.table{
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 2px;
+}
+
+h2{
+  margin-left: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+}

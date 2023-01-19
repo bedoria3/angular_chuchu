@@ -1,0 +1,22 @@
+
+  <div class="table">
+    <h3>Personal Background</h3>
+    <p><b>Name: </b> {{ studentIn.firstName }} {{ studentIn.lastName }}</p>
+    <p><b>Age:</b> {{ studentIn.age }}</p>
+    <p><b>Gender:</b> {{ studentIn.gender }}</p>
+    <p><b>Nationality:</b> {{ studentIn.nationality }}</p>
+    <p><b>Home Address:</b> {{ studentIn.home_address }}</p>
+    <p><b>Status:</b> {{ studentIn.status }}</p>
+    <br>
+    <h3>Educational Background</h3>
+
+    <div class="educ">
+      <p><b>Elementary School:</b> {{ studentIn.elementary_school }}</p>
+      <p><b>High School:</b> {{ studentIn.high_school }}</p>
+      <p *ngIf="studentIn.college"><b>College:</b> {{ studentIn.college }}</p>
+      <p *ngIf="studentIn.degree">
+        <i><b>Degree:</b> {{ studentIn.degree }}</i>
+      </p>
+    </div>
+  </div>
+
