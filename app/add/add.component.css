@@ -1,0 +1,19 @@
+.btn{
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  width: 250px;
+  height: 55px;
+  margin: 30px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.btn:hover{
+  color: black;
+  background-color: cyan;
+}
+
+.btnClk{
+  display: inline-block;
+}

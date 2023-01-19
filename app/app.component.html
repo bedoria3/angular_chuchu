@@ -1,27 +1,12 @@
 
-<!-- <h2>{{title}}</h2>
-<h1>{{label}}</h1>
-
-<div *ngIf=" !isAddStudent">
-  <h2>Student List</h2>
-  <button (click)="addNewStudent()">Add New Student</button>
-  <div *ngFor="let student of studentsList">
-    <div class="table">
-      <app-student [studentIn]="student"></app-student>
+<div class="container">
+  <h2>{{ title }}</h2>
+  <h3>{{label}}&nbsp;&nbsp;{{numberValue}}</h3>
+  <br /><br />
+  <div class="btnClk">
+    <div class="btn">
+      <app-add (addOut)="recieveAdd()"></app-add>
+      <app-subtract (subtractOut)="receiveSubtract()"></app-subtract>
     </div>
+  </div>
 </div>
-</div>
-
-<div *ngIf="isAddStudent">
-  <app-add-student (studentOut)="addStudent($event)"></app-add-student>
-</div> -->
-
-<nav>
-  <ul>
-    <li><a routerLink="/first-component">First Component</a></li>
-    <li><a routerLink="/second-component">Second Component</a></li>
-    <li><a routerLink="/third-component">Third Component</a></li>
-    <li><a routerLink="/fourth-component">Fourth Component</a></li>
-  </ul>
-</nav>
-<router-outlet></router-outlet>
